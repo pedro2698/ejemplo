@@ -1,0 +1,66 @@
+<nav  class="navbar navbar-expand-lg navbar-light"  style="background-color: #b3cbdd;">
+    <a  class="navbar-brand"  href="#">Tecnocultura</a>
+    
+    
+    <div  class="collapse navbar-collapse"  id="navbarText">
+    <ul  class="navbar-nav">
+    <li  class="nav-item">
+        <a  class="nav-link"  routerLink="/Inicio">Inicio</a>
+    </li>
+    <li  class="nav-item">
+        <a  class="nav-link"  routerLink="/Conocenos">Conocenos</a>
+    </li>
+    <li  class="nav-item">
+        <a  class="nav-link"  routerLink="/Lineamientos">Lineamientos</a>
+        
+    </li>
+
+    <li  class="nav-item">
+
+        <a  class="nav-link"  routerLink="/Anteriores">Numeros Anteriores</a>
+    
+        <ul class="sub">
+                <li  class="nav-item">
+               <a  class="nav-link"  routerLink="/Numero21">Numero21</a> </li>
+               <li  class="nav-item">
+       <a  class="nav-link"  routerLink="/Numero22">Numero22</a> </li>
+    <li  class="nav-item">
+            <a  class="nav-link"  routerLink="/Numero43">Numero43</a> </li>
+        
+        </ul> 
+    </li>   
+    
+        <li  class="nav-item">
+            <a  class="nav-link"  routerLink="/Editorial">Editorial</a>
+            </li>
+            <li  class="nav-item">
+                <a  class="nav-link"  routerLink="/Contactanos">Contactanos</a>
+                </li>
+                
+                
+                    <li class="nav-item" *ngIf="!isLogged">
+                            <a class="nav-link" routerLink="/Login">Login
+                            </a>
+                          </li>
+                          <li class="nav-item" *ngIf="isLogged">
+                            <a href="#" class="nav-link" (click)="onLogout()">Logout
+                            </a>
+                          </li>
+                          <li class="nav-item" *ngIf="isLogged">
+                            <a class="nav-link" routerLink="Admin">Admin</a>
+                          </li>
+
+
+    </ul>
+    </div>
+    </nav>
+
+
+
+    <br/>
+<br/>
+
+
+
+
+

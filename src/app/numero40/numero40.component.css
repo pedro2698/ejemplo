@@ -1,0 +1,79 @@
+button{
+    cursor: pointer;
+
+}
+
+a {
+    cursor: pointer;
+
+}
+
+h4{
+    float: left;
+  
+}
+.cuadro{
+    border : 1px gray solid;
+    padding:  10px;
+    background-color: #202020;
+    width: 95%;
+    margin: 5px 10px;
+    border-radius: 10px;
+    }
+
+    .cuadro p {
+        font-family: helvetica Neue;
+        color:white;
+        font-size: 20px;
+   
+        opacity: 0.6;
+
+    }
+    
+.datos div p{
+    color: black;
+  font-size: 15px;
+    font-family: helvetica Neue;
+
+    text-align: center;    
+
+}
+
+div.parrafos 
+{ 
+    text-align: center;}
+
+
+    .datos{
+        margin: 0;
+        padding : 2px;
+        height: 800px;
+    }
+    
+    .datos{
+     
+        border-bottom: 1px solid #808080;
+        padding: 0 1em;
+        margin-bottom:  .5em;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 3px #5F9EA0;
+        -webkit-box-shadow: 1px 1px 3px #5F9EA0;
+
+    }
+    .datos{
+        border-left : 5px gray solid;
+        padding-left :5px;
+        transition: all .25s;
+
+    }
+
+#img1{
+    width: 600px;
+    height: 700px;
+border-radius: 50px;
+box-shadow: 5px 5px 0px #000;
+float: left;
+border: 5px ;
+margin: 10px 10px 0 0;
+}
